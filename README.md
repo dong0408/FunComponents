@@ -1,7 +1,6 @@
 # Vite + Vue3 + Typescript + Pinia + Vueuse
 
-> ## 一个大厂企业级前端项目
-> 
+
 > ## 如果觉得项目模板不错的话，欢迎 Star 支持就好，感谢大家！
 
 
