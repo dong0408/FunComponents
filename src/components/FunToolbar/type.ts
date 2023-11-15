@@ -2,7 +2,7 @@ export interface HeaderFilterType {
     label?: string;
     prop: string;
     searchType: SearchEnum;
-    value: string;
+    value: string | number;
     width?: number;
     placeholder?: string;
     dateRangeStartPlaceholder?: string;

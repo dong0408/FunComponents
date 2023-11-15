@@ -21,10 +21,9 @@
     import '@wangeditor/editor/dist/css/style.css';
     import { Editor, Toolbar } from '@wangeditor/editor-for-vue';
     import { onBeforeUnmount, ref, shallowRef, onMounted, defineEmits, watchEffect } from 'vue';
-
-    defineOptions({
-        name: 'GsEditor'
-    });
+    // defineOptions({
+    //     name: 'GsEditor'
+    // });
 
     // 参数
     const props = defineProps({

@@ -1,7 +1,7 @@
 <template>
     <img alt="Vue logo" src="./../assets/logo.png" />
     <UsePinia />
-    <Toolbar />
+    <!-- <Toolbar /> -->
     <br />
     <router-link to="/login">点击跳转至login</router-link>
     <br /><br />
@@ -14,6 +14,7 @@
     import { defineComponent } from 'vue';
     import UsePinia from '@/components/UsePinia.vue';
     import Toolbar from '@/components/Toolbar/index.vue';
+    
     export default defineComponent({
         name: 'IndexPage',
         components: {

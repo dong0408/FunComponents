@@ -1,7 +1,7 @@
 <template>
     <div style="width: 800px; height: 400px">
         <FunToolbar :form-list="formList" />
-        <!-- <FunEditor v-model="ediitorValue" /> -->
+        <FunEditor v-model="ediitorValue" />
     </div>
 </template>
 

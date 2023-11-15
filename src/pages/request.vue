@@ -3,12 +3,13 @@
     <br />
     <router-link to="/">点击跳转至首页</router-link>
     <button @click="requestRes()"></button>
+    <FunEditor></FunEditor>
 </template>
 <script lang="ts">
     import { defineComponent } from 'vue';
     import request from '@/utils/axios';
     import API from '@/api';
-
+    import FunEditor from '@/components/FunEditor';
     export default defineComponent({
         name: 'RequestPage',
         setup() {
